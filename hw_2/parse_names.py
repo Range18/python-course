@@ -1,4 +1,5 @@
 import requests
+import re
 
 
 def count_names(names_arr):
@@ -14,14 +15,11 @@ def count_names(names_arr):
 def main():
     html = requests.get(
         'https://raw.githubusercontent.com/python-fiit/public-materials/refs/heads/master/02-basictypes/hw/hw2/home.html')
-    text = html.text
     names_arr = []
-    for line in text.split('\n'):
-        if '<a href=' in line:
-            name_start_ind = line.find('<a href=')
-            name_start_ind += line[name_start_ind + 8:].find('/>')
-            name = line[name_start_ind + 2:line.find('</a>')]
-            names_arr.append(name)
+    for line in html.text.split('\n'):
+        name_surname = re.findall(r"<a href=[\s\S]*?/>([\s\S]*?)</a>", line)
+        if name_surname:
+            names_arr.append(name_surname[0])
     print(count_names(names_arr))
 
 
