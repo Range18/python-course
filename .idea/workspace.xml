@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="398d1844-23fb-4646-8fac-a6bc1c69c8cf" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/hw_2/determine_gender_by_surname.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_2/genders_enum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_2/person.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_2/stat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_2/task.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw_2/parse_names.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw_2/parse_names.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,30 +36,62 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.Doctests in task1.executor": "Debug",
-    "Python.hw2.executor": "Run",
-    "Python.long_div.executor": "Run",
-    "Python.parse_names.executor": "Run",
-    "Python.task1.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.sourceCode",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Doctests in task1.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.determine_gender_by_surname.executor&quot;: &quot;Run&quot;,
+    &quot;Python.genders_enum.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hw2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.long_div.executor&quot;: &quot;Run&quot;,
+    &quot;Python.parse_names.executor&quot;: &quot;Run&quot;,
+    &quot;Python.person.executor&quot;: &quot;Run&quot;,
+    &quot;Python.stat.executor&quot;: &quot;Run&quot;,
+    &quot;Python.stat.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task1.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/PyProjects/python_tasks/hw_2&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\PyProjects\python_tasks\hw_1" />
       <recent name="D:\PyProjects\python_tasks\hw2" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="stat.py" type="PythonConfigurationType" factoryName="Python">
+      <module name="python_tasks" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.10 (python_tasks)" />
+      <option name="WORKING_DIRECTORY" value="D:\PyProjects\python_tasks\hw_2" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hw_2/stat.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -81,7 +117,12 @@
       <workItem from="1741202648096" duration="6454000" />
       <workItem from="1741289073522" duration="57000" />
       <workItem from="1741326309000" duration="1080000" />
-      <workItem from="1741327417574" duration="2981000" />
+      <workItem from="1741327417574" duration="3285000" />
+      <workItem from="1741695100383" duration="1921000" />
+      <workItem from="1741846099006" duration="595000" />
+      <workItem from="1741855698605" duration="9694000" />
+      <workItem from="1742149198358" duration="74000" />
+      <workItem from="1742189367611" duration="53000" />
     </task>
     <servers />
   </component>
@@ -103,9 +144,14 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/python_tasks$task1.coverage" NAME="task1 Coverage Results" MODIFIED="1741256369245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/python_tasks$parse_names.coverage" NAME="parse_names Coverage Results" MODIFIED="1741330816132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hw_2" />
+    <SUITE FILE_PATH="coverage/python_tasks$parse_names.coverage" NAME="parse_names Coverage Results" MODIFIED="1741331046068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hw_2" />
+    <SUITE FILE_PATH="coverage/python_tasks$stat_py.coverage" NAME="stat.py Coverage Results" MODIFIED="1741864872840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:\PyProjects\python_tasks\hw_2" />
     <SUITE FILE_PATH="coverage/python_tasks$hw2.coverage" NAME="hw2 Coverage Results" MODIFIED="1740734936982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hw2" />
+    <SUITE FILE_PATH="coverage/python_tasks$person.coverage" NAME="person Coverage Results" MODIFIED="1741860509840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hw_2" />
+    <SUITE FILE_PATH="coverage/python_tasks$stat.coverage" NAME="stat Coverage Results" MODIFIED="1741860769933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hw_2" />
     <SUITE FILE_PATH="coverage/python_tasks$long_div.coverage" NAME="long_div Coverage Results" MODIFIED="1741326627869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_tasks$determine_gender_by_surname.coverage" NAME="determine_gender_by_surname Coverage Results" MODIFIED="1741860762238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hw_2" />
+    <SUITE FILE_PATH="coverage/python_tasks$genders_enum.coverage" NAME="genders_enum Coverage Results" MODIFIED="1741860069405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hw_2" />
     <SUITE FILE_PATH="coverage/python_tasks$Doctests_in_task1.coverage" NAME="Doctests in task1 Coverage Results" MODIFIED="1740663568976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
